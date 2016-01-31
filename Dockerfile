@@ -1,5 +1,5 @@
-FROM ubuntu:trusty
-MAINTAINER Feng Honglin <hfeng@tutum.co>
+FROM buildpack-deps:jessie
+MAINTAINER Shawn McElroy <shawn@skift.io>
 
 RUN apt-get update && \
     apt-get install -y nginx && \
