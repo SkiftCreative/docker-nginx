@@ -1,5 +1,4 @@
-Nginx Python (3)
-================
+# Nginx
 
 If you want to deploy this onto Docker cloud, Check out the `stackfile.yml` for a basic example. You can also see this repository on instructions for
 how to use this image, as well as its parent images.

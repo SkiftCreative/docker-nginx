@@ -15,5 +15,3 @@ RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 COPY supervisor/supervisord.conf /etc/supervisor/conf.d/
 
 EXPOSE 80
-
-# the supervisor ancestor image will run nginx and gunicorn
