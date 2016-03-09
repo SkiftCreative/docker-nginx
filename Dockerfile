@@ -12,6 +12,7 @@ RUN echo "daemon off;" >> /etc/nginx/nginx.conf
     # "s/{{server_name}}/${SERVER_NAME}/g" \
     # /etc/nginx/sites-enabled/default
 
-COPY supervisor/supervisord.conf /etc/supervisor/conf.d/
+ADD nginx.conf /etc/nginx/nginx.conf
+ADD supervisor/supervisord.conf /etc/supervisor/conf.d/
 
 EXPOSE 80
