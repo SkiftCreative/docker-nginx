@@ -1,6 +1,6 @@
 NAMESPACE=skiftcreative
 APP=nginx
-TAG=latest
+TAG=supervisor-3.3
 
 build:
 	docker build --no-cache=true -t ${NAMESPACE}/${APP}:${TAG} .
